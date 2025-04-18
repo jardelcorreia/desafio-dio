@@ -1,0 +1,64 @@
+
+📘 Anotações Importantes sobre Git e GitHub
+
+🔧 Configuração Inicial
+-----------------------
+git config --global user.name "Seu Nome"
+git config --global user.email "seu@email.com"
+
+📁 Criar e Iniciar um Repositório
+----------------------------------
+git init                   # Inicializa um repositório local
+git clone URL_DO_REPO     # Clona um repositório remoto
+
+📄 Ciclo Básico de Uso
+-----------------------
+git status                # Mostra arquivos modificados
+git add nome_arquivo      # Adiciona arquivos para commit
+git add .                 # Adiciona tudo
+git commit -m "mensagem"  # Cria um commit
+git push                  # Envia commits para o GitHub
+git pull                  # Atualiza com alterações do repositório remoto
+
+🌿 Branches
+------------
+git branch                    # Lista branches
+git branch nome_da_branch     # Cria nova branch
+git checkout nome_da_branch   # Muda de branch
+git switch nome_da_branch     # Alternativa moderna ao checkout
+git merge nome_da_branch      # Mescla branch com a atual
+git branch -d nome_da_branch  # Deleta uma branch
+
+🔁 Repositório Remoto
+----------------------
+git remote add origin URL         # Conecta repo local ao GitHub
+git remote -v                     # Verifica repositórios remotos
+git push -u origin main           # Primeira vez: envia branch 'main' e define upstream
+
+⏪ Histórico e Log
+-------------------
+git log                           # Mostra histórico de commits
+git log --oneline                 # Versão resumida
+git show ID_DO_COMMIT            # Mostra detalhes de um commit
+
+🔄 Revertendo Alterações
+-------------------------
+git restore nome_arquivo          # Desfaz alterações no arquivo
+git reset HEAD~1                  # Remove o último commit (mantém alterações locais)
+git revert ID_DO_COMMIT           # Reverte um commit já feito
+
+🗂️ .gitignore
+--------------
+Arquivo para ignorar arquivos/pastas no versionamento.
+
+Exemplo de .gitignore:
+
+node_modules/
+.env
+dist/
+*.log
+
+🔐 SSH no GitHub
+-----------------
+ssh-keygen -t ed25519 -C "seu@email.com"
+cat ~/.ssh/id_ed25519.pub       # Copie essa chave no GitHub
