@@ -9,14 +9,14 @@ Header com imagem temática
 
 Breve descrição sobre a clínica
 
-Texto formatado com elementos semânticos (<strong>, <i>, <blockquote>)
+Texto formatado com elementos semânticos (strong, i, blockquote)
 
 🏥 Sobre a Clínica
 Header com imagem diferente
 
 Texto detalhado sobre a clínica
 
-Listas (<ul>, <li>) para estruturação do conteúdo
+Listas (ul, li) para estruturação do conteúdo
 
 ⏰ Horário de Atendimento
 Tabela responsiva com os horários de cada especialidade
@@ -60,4 +60,3 @@ Layout responsivo (usando Flexbox)
 
 Resultado Final:
 Um site funcional, intuitivo e bem estruturado, pronto para ser expandido com mais recursos no futuro!
-
