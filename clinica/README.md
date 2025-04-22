@@ -1,4 +1,3 @@
-
 # 🏥 Clínica Saúde Total - Website Completo
 
 Website desenvolvido como solução para o desafio de criação de site para clínica médica utilizando HTML e CSS.
